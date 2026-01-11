@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Arabic Restaurant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 100%;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-color: #f5f5f5;
+        }
+        
+        .menu-container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .menu-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+        
+        /* For very small screens */
+        @media (max-width: 480px) {
+            .menu-container {
+                padding: 0;
+            }
+        }
+        
+        /* For tablets and medium devices */
+        @media (min-width: 481px) and (max-width: 768px) {
+            .menu-container {
+                max-width: 90%;
+            }
+        }
+        
+        /* For larger screens */
+        @media (min-width: 769px) {
+            .menu-container {
+                max-width: 800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <img src="https://i.ibb.co/7thgXS71/ecfe4fd2-6e34-4bb8-904f-2d8f3be0c9ec.jpg" alt="Menu Page 1">
+        <img src="https://i.ibb.co/NnH6LfWc/7ce96f1a-10b8-4cf8-b20d-0f26840b9c02.jpg" alt="Menu Page 2">
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>
